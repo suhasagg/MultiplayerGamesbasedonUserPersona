@@ -1,0 +1,194 @@
+
+
+
+#rap { margin: 0pt; padding: 0pt; background: rgb(142, 183, 218) none no-repeat scroll right bottom; width: 100%; min-height: 100%; voice-family: inherit; height: auto; text-align: left; }
+html > body #rap { height: auto; width: 100%; }
+#main { margin: 0pt 0pt 0pt 20px; padding: 0pt; }
+#menu { float: left; width: 30%; }
+#nav { padding-left: 0px; padding-right: 0px; float: left; width: 100%; text-align: left; }
+#content { margin: 0pt; padding: 0pt; float: left; width: 68%; text-align: left; }
+#footer { margin: 0pt 0pt 5px 7px; padding: 0pt; background: transparent url('../images/fbbody-r.gif') no-repeat scroll right bottom; width: 97%; color: rgb(79, 64, 42); text-transform: capitalize; clear: both; }
+* html #footer { margin: 0pt 0pt 135px 5px; float: left; }
+#header { margin: 0pt; height: 200px; }
+#masthead { margin: 0pt; padding: 0pt; background: rgb(142, 183, 218) url('../images/bg.jpg') no-repeat scroll left top; height: 250px; }
+.reset { clear: both; height: 1px; }
+.reset2 { clear: both; height: 20px; }
+
+
+
+.spacecom { height: 15px; }
+#commentlist { padding: 0pt; margin-bottom: 60px; margin-left: 0pt; color: White; }
+#commentlist p { padding-left: 10px; margin-top: 5px; }
+.norm { margin: 0pt; background: transparent url('../images/cobody-r.gif') no-repeat scroll right bottom; font-size: 100%; width: 100%; }
+.alt { margin: 0pt; background: transparent url('../images/acobody-r.gif') no-repeat scroll right bottom; font-size: 100%; width: 100%; }
+.co-content { margin-left: 20px; margin-bottom: 5px; }
+.norm .licomtop { margin: 0pt; padding: 0pt; background: transparent url('../images/cohead-r.gif') no-repeat scroll right top; text-align: center; }
+.norm .cheadfill { margin: 0pt; padding: 10px 30px 5px 0pt; background: transparent url('../images/cohead-l.gif') no-repeat scroll left top; color: white; font-weight: bold; font-size: 1.2em; line-height: 1em; }
+.norm .licombody { margin: 0pt; padding: 5px 30px 31px 20px; background: transparent url('../images/cobody-l.gif') no-repeat scroll left bottom; }
+.alt .licomtop { margin: 0pt; padding: 0pt; background: transparent url('../images/acohead-r.gif') no-repeat scroll right top; text-align: center; }
+.alt .cheadfill { margin: 0pt; padding: 10px 30px 5px 0pt; background: transparent url('../images/acohead-l.gif') no-repeat scroll left top; color: white; font-weight: bold; font-size: 1.2em; line-height: 1em; }
+.alt .licombody { margin: 0pt; padding: 5px 30px 31px 20px; background: transparent url('../images/acobody-l.gif') no-repeat scroll left bottom; }
+.licombody p { margin: 0pt; padding: 0pt; }
+.commentlist li ul { border-left: 3px solid rgb(238, 238, 238); font-size: 12px; list-style-type: none; }
+.commentlist a { background: rgb(242, 235, 225) none repeat; color: White; text-decoration: none; }
+.commentlist a:hover { background: rgb(79, 64, 42) none repeat; color: White; }
+span.noflavor { color: rgb(251, 180, 138); font-weight: bolder; }
+span.oneflavor { color: rgb(251, 180, 138); font-weight: bolder; }
+span.areflavor { color: rgb(251, 180, 138); font-weight: bolder; }
+.comments-post { margin: 5px 25px 35px; color: White; }
+.comments-post p a { background: rgb(194, 218, 240) none repeat; color: rgb(120, 120, 120); text-decoration: none; }
+.comments-post p a:hover { background: White none repeat; color: rgb(95, 95, 95); }
+cite { background: transparent url('../images/said.gif') no-repeat scroll 0pt 6px; font-size: 11px; font-weight: bolder; font-style: normal; padding-left: 10px; height: 5px; color: rgb(95, 95, 95); }
+cite a { border-bottom: 1px solid rgb(179, 208, 234); text-decoration: none; color: rgb(95, 95, 95); }
+cite a:hover { background: White none repeat; color: rgb(86, 146, 199); }
+span.commentmetadata { font-size: 10px; color: White; }
+span.commentmetadata a { text-decoration: none; color: rgb(132, 180, 221); }
+span.commentmetadata a:hover { text-decoration: none; color: rgb(69, 136, 195); }
+.textarea { margin: 0pt; width: 300px; }
+#commentform-container { margin-left: 40px; }
+#commentform-container p { font-size: 10px; }
+#commentform-container a { color: rgb(116, 192, 250); text-decoration: none; }
+#commentform-container a:hover { background: White none repeat; color: rgb(116, 192, 250); text-decoration: none; }
+#commentform #comment { margin: 0pt; padding: 10px 0pt 0pt; width: 550px; }
+#commentform #author, #commentform #email, #commentform #url, #commentform textarea { border-style: solid; border-color: rgb(191, 214, 234); border-width: 2px 1px 1px 2px; background: rgb(255, 255, 255) none repeat; color: rgb(79, 64, 42); }
+.comments-post .nocomments { background: transparent url('../images/closed.jpg') no-repeat; font-size: 10px; padding-left: 20px; margin-left: 0px; }
+#commentform textarea { width: 100%; }
+
+
+
+.themeta { background: transparent url('../images/themetaside.gif') repeat-y scroll left top; width: 25%; float: right; color: rgb(132, 132, 132); margin-top: 6px; padding-left: 25px; line-height: 20px; }
+.themeta li, ul.post-meta li { display: inline; }
+.themeta ul { margin: 0pt; padding: 0pt; display: inline; list-style-type: none; list-style-image: none; list-style-position: outside; }
+.themeta span.where { background: transparent url('../images/where.gif') no-repeat; color: rgb(175, 175, 175); padding-left: 20px; }
+.themeta span.who { background: transparent url('../images/who.gif') no-repeat; color: rgb(175, 175, 175); padding-left: 20px; }
+.themeta span.when-date { background: transparent url('../images/when-date.gif') no-repeat; color: rgb(175, 175, 175); padding-left: 20px; }
+.themeta span.when-hour { background: transparent url('../images/when-hour.gif') no-repeat; color: rgb(175, 175, 175); padding-left: 20px; }
+.themeta span.com { background: transparent url('../images/com.gif') no-repeat; color: rgb(175, 175, 175); padding-left: 20px; }
+.themeta span.related { background: transparent url('../images/related.gif') no-repeat; color: rgb(175, 175, 175); padding-left: 20px; }
+.themeta span.su { background: transparent url('../images/su.gif') no-repeat; color: rgb(175, 175, 175); padding-left: 20px; }
+.themeta a { color: rgb(131, 181, 218); font-weight: normal; letter-spacing: 0pt; text-decoration: none; }
+.themeta a:hover { color: rgb(116, 192, 250); }
+
+
+
+.sidMultiplayer puzzleace { height: 5px; }
+* html .sidMultiplayer puzzleace { display: none; }
+.sideitem { margin: 0pt; background: transparent url('../images/sbbody-r.gif') no-repeat scroll right bottom; font-size: 100%; width: 100%; }
+.boxhead { margin: 0pt; padding: 0pt; background: transparent url('../images/sbhead-r.gif') no-repeat scroll right top; text-align: center; }
+.boxhead .headfill { margin: 0pt; padding: 10px 30px 5px; background: transparent url('../images/sbhead-l.gif') no-repeat scroll left top; color: white; font-weight: bold; font-size: 1.2em; line-height: 1em; }
+.boxbody { margin: 0pt; padding: 5px 30px 31px; background: transparent url('../images/sbbody-l.gif') no-repeat scroll left bottom; color: rgb(103, 150, 189); font-weight: bolder; }
+.boxbody a { text-decoration: none; color: rgb(103, 150, 189); font-weight: normal; }
+.boxbody a:hover { background: White none repeat; color: rgb(103, 150, 189); font-weight: normal; }
+.p-sideitem { margin: 0pt; background: transparent url('../images/p-sbbody-r.gif') no-repeat scroll right bottom; font-size: 100%; width: 100%; }
+.p-boxhead { margin: 0pt; padding: 0pt; background: transparent url('../images/p-sbhead-r.gif') no-repeat scroll right top; text-align: center; }
+.p-boxhead .p-headfill { margin: 0pt; padding: 10px 30px 5px; background: transparent url('../images/p-sbhead-l.gif') no-repeat scroll left top; color: white; font-weight: bold; font-size: 1.2em; line-height: 1em; }
+#nav .p-boxbody { margin: 0pt; padding: 5px 30px 31px; background: transparent url('../images/p-sbbody-l.gif') no-repeat scroll left bottom; color: White; }
+#nav .p-boxbody h2 { color: White; }
+#nav .p-boxbody li a { color: White; }
+#nav li.current_page_item a { border-left: 3px solid rgb(233, 241, 248); border-right: 3px solid rgb(233, 241, 248); background: rgb(233, 241, 248) none repeat; margin-left: 5px; color: rgb(67, 67, 68); }
+#nav li.current_page_item a:hover { border-left: 3px solid rgb(245, 245, 252); border-right: 3px solid rgb(245, 245, 252); background: rgb(245, 245, 252) none repeat; color: rgb(51, 51, 51); margin-left: 5px; }
+#nav li { list-style-type: none; list-style-image: none; list-style-position: outside; }
+#nav form { margin: 0pt 0pt 0pt 13px; }
+#nav ul { margin: 0pt; padding: 0pt; list-style-type: none; list-style-image: none; list-style-position: outside; }
+#nav li { margin: 0pt; padding: 0pt; list-style-type: none; list-style-image: none; list-style-position: outside; }
+#nav input#s { border-top: 1px solid rgb(130, 129, 119); border-left: 1px solid rgb(130, 129, 119); background: rgb(238, 238, 238) none repeat; width: 70%; color: rgb(0, 0, 0); }
+#nav ul { margin: 0pt 0pt 5px; color: rgb(51, 51, 51); font-weight: normal; font-size: 22px; list-style-type: none; padding-left: 20px; text-transform: lowercase; }
+#nav h2 { margin: 0pt; color: rgb(67, 67, 68); font-weight: normal; font-size: 18px; list-style-type: none; padding-left: 18px; text-transform: lowercase; }
+#nav ul li { font-size: 12px; padding-bottom: 2px; color: rgb(51, 51, 51); padding-left: 10px; }
+#nav ul li a { color: rgb(51, 51, 51); text-decoration: none; }
+#nav ul li a:hover { background: rgb(255, 255, 255) none repeat; color: rgb(116, 192, 250); }
+#nav ul ul { margin: 0pt; padding: 0pt; font-size: 12px; font-weight: normal; line-height: normal; list-style-type: none; text-align: left; }
+#nav ul ul li, #nav ul li ul li { border: 0pt none ; padding: 0pt; font-size: 12px; font-weight: normal; letter-spacing: 0pt; margin-top: 0pt; }
+#nav ul ul li a { color: rgb(68, 68, 68); text-decoration: none; }
+#nav ul ul li a:hover { border-bottom: 1px solid rgb(51, 51, 51); }
+#nav ul ul ul.children { font-size: 11px; padding-left: 4px; }
+#nav li.recentcomments { background: transparent url('../images/recentcomments.jpg') no-repeat scroll left bottom; color: rgb(80, 63, 43); padding-left: 15px; margin-top: 5px; }
+
+
+
+#footercontent { margin: 0pt; padding: 0px 30px 31px 20px; background: transparent url('../images/fbbody-l.gif') no-repeat scroll left bottom; }
+#footer .fboxhead { margin: 0pt; padding: 0pt; background: transparent url('../images/fbhead-r.gif') no-repeat scroll right top; text-align: center; }
+#footer .fboxhead .fheadfill { margin: 0pt; padding: 5px 30px 5px 0pt; background: transparent url('../images/fbhead-l.gif') no-repeat scroll left top; color: white; font-weight: bold; font-size: 1.2em; line-height: 1em; }
+#footer a { text-decoration: none; color: White; font-weight: bolder; }
+#footer a:hover { background: White none repeat; color: rgb(116, 192, 250); }
+#footer p { margin: 0pt 10px; }
+#footer .rss { background: transparent url('../images/rss.gif') no-repeat scroll left center; padding-left: 15px; }
+#pagination { margin-left: 35px; color: White; }
+.credit { margin: 0pt 0pt 10px 10px; color: rgb(255, 255, 255); font-size: 11px; text-align: left; float: left; }
+.footermeta { margin: 0pt 10px 10px 0pt; color: rgb(255, 255, 255); font-size: 11px; float: right; }
+.footermeta a { color: White; text-decoration: none; margin-left: 5px; }
+.resetfoot { height: 10px; }
+
+
+
+#calendar_wrap { margin: 0pt; padding: 0pt; }
+#wp-calendar { margin: 0pt; empty-cells: hide; font-size: 11px; width: 100%; text-align: center; }
+#wp-calendar thead { color: rgb(141, 184, 219); font-size: 10px; }
+#wp-calendar #next a { padding-right: 10px; text-align: right; }
+#wp-calendar #prev a { padding-left: 10px; text-align: left; }
+#wp-calendar a { display: block; text-decoration: none; color: rgb(251, 180, 138); font-weight: bolder; }
+#wp-calendar a:hover { color: White; }
+#wp-calendar caption { color: rgb(68, 68, 68); font-size: 18px; font-weight: normal; text-align: left; padding-left: 15px; }
+#wp-calendar td { padding: 2px 0pt; background: White none repeat; color: rgb(68, 68, 68); font-weight: normal; font-size: 11px; letter-spacing: normal; text-align: center; }
+#wp-calendar td.pad:hover { background: rgb(255, 255, 255) none repeat; }
+#wp-calendar td:hover, #wp-calendar #today { background: rgb(141, 184, 219) none repeat; color: White; }
+#wp-calendar th { font-style: normal; text-transform: capitalize; }
+
+
+
+html, body { margin: 0pt; padding: 0pt; background-color: rgb(142, 183, 218); }
+body { padding: 0pt; font-family: "Lucida Grande","Lucida Sans Unicode","Trebuchet MS",Verdana,Helvetica,sans-serif; font-size: 12px; color: rgb(51, 51, 51); text-align: center; width: 100%; min-width: 1000px; }
+#masthead h1 { margin: 0pt 0pt 0pt 2px; padding: 140px 0pt 0pt 160px; color: rgb(250, 119, 230); font-size: 16px; }
+#masthead h1 a { color: rgb(255, 255, 255); text-decoration: none; text-transform: uppercase; }
+#masthead h2 { color: White; font-size: 12px; margin-left: 70px; padding-left: 100px; padding-top: 0px; height: 28px; margin-top: 0px; }
+* html #masthead h2 { margin-left: 45px; padding-left: 0pt; float: left; }
+a img { border: medium none ; }
+acronym, abbr { border-bottom: 1px dotted rgb(181, 220, 250); }
+acronym, abbr, span.caps { cursor: help; font-size: 11px; letter-spacing: 0.07em; }
+blockquote { border-left: 5px solid rgb(204, 204, 204); margin-left: 1.5em; padding-left: 5px; }
+h1 { margin: 25px 10px 20px 0px; padding: 0px; text-align: left; }
+h2 { margin: 15px 20px 0pt 25px; font-size: 13px; font-weight: normal; padding-bottom: 2px; }
+h3.fix { margin: 5px 0pt 0pt 20px; font-size: 20px; font-weight: bolder; text-transform: capitalize; color: rgb(116, 192, 250); }
+h3 a { margin: 0pt 0pt 0pt 20px; padding: 0pt; font-size: 20px; font-weight: bolder; color: rgb(142, 183, 218); text-transform: capitalize; display: block; }
+.date { font-size: 10px; font-weight: normal; color: rgb(116, 192, 250); }
+h1 a:hover, h2 a:hover, h3 a:hover { color: rgb(116, 192, 250); }
+#getit { margin-left: 10px; margin-top: -30px; }
+h3#rMultiplayer puzzleond { margin: 0pt; padding: 42px 0pt 0pt 48px; background: transparent url('../images/bobble.gif') no-repeat; height: 49px; color: rgb(140, 140, 140); font-size: 15px; }
+h3#comments { margin: -5px 0pt 0pt; padding: 41px 0pt 0pt 163px; background: transparent url('../images/cornerarrow.gif') no-repeat; height: 89px; color: rgb(255, 255, 255); font-size: 14px; }
+p, li, .feedback { font-size: 12px; }
+ul.post-meta { list-style-type: none; list-style-image: none; list-style-position: outside; }
+ul.post-meta span.post-meta-key { font-weight: bold; }
+.feedback { margin: -20px 20px 0pt 0pt; padding: 0pt; color: rgb(204, 204, 204); text-align: left; font-size: 11px; float: right; }
+.feedback a { color: rgb(151, 192, 0); text-decoration: none; font-size: 11px; cursor: pointer; }
+#clearer { margin: 0pt; padding: 0pt; clear: both; }
+#content .post { margin: 0pt; background: transparent url('../images/csbbody-r.gif') no-repeat scroll right bottom; font-size: 100%; width: 100%; color: rgb(79, 64, 42); }
+#content .postop { margin: 0pt; padding: 0pt; background: transparent url('../images/csbhead-r.gif') no-repeat scroll right top; text-align: center; }
+#content .postop .pheadfill { margin: 0pt; padding: 10px 30px 5px 0pt; background: transparent url('../images/csbhead-l.gif') no-repeat scroll left top; color: white; font-weight: bold; font-size: 1.2em; line-height: 1em; }
+#content .storycontent { margin: 0pt; padding: 5px 30px 31px 20px; background: transparent url('../images/csbbody-l.gif') no-repeat scroll left bottom; }
+.thecontent { width: 70%; float: left; }
+.storytitle a { text-decoration: none; }
+#content .post .storycontent p img { border: medium none ; float: left; }
+.post p a { background: rgb(236, 242, 249) none repeat; color: rgb(36, 36, 36); text-decoration: none; }
+.post p a:hover { background: rgb(36, 36, 36) none repeat; color: White; }
+.post p { margin: 5px 15px 10px 20px; text-transform: none; }
+.noposts { padding: 18px 0pt 0pt 75px; background: transparent url('../images/noposts.jpg') no-repeat scroll left top; font-size: 20px; color: White; height: 60px; margin-left: 80px; }
+h2#flickr {  }
+#header, #header a:link { font-size: 20px; font-weight: normal; color: rgb(204, 204, 204); text-decoration: none; }
+#header a:hover { color: rgb(204, 0, 0); }
+.page_item { margin: 0pt; padding: 0pt; }
+.licontainer { margin: 4px 0pt 0pt; background: transparent url('../images/subitem.gif') repeat-x scroll left bottom; height: 40px; float: left; }
+#flickr_badge_uber_wrapper { margin-left: 17px; }
+#flickr_badge_wrapper img { border: 3px solid rgb(233, 241, 248); float: left; margin-left: 5px; margin-top: 5px; }
+li a.rsswidget { margin-left: 10px; }
+a.rsswidget { text-decoration: none; color: rgb(156, 156, 156); }
+.textwidget { margin-left: 20px; text-transform: none; }
+
+
+
+#fmoblog_side {  }
+#fmoblog { margin-top: 10px; }
+#fmoblog_side img, #fmoblog img { border: 1px solid rgb(204, 204, 204); margin: 1px; padding: 1px; background-color: rgb(255, 255, 255); }
+#fmoblog_photodate { height: 50px; float: left; }
+#fmoblog_photolist { margin: 0pt; padding: 0pt; float: right; }
+#fmoblog a, #fmoblog a:visited, #fmoblog a:hover, #fmoblog a:focus { border: medium none ; text-decoration: none; background-color: transparent; }
+#fmoblog_error { border: 3px solid rgb(0, 0, 0); background-color: rgb(255, 0, 0); }

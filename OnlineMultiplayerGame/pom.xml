@@ -1,0 +1,161 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.multiplayergame</groupId>
+	<artifactId>multiplayergame</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
+	<name>App</name>
+	<description>App</description>
+
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<id>Suhas</id>
+			<name>Suhas Aggarwal</name>
+			<email>suhasagg@gmail.com</email>
+		</developer>
+	</developers>
+
+	<distributionManagement>
+		<repository>
+			<id>mvn-repo</id>
+			<url>scpexe://ansj/home/mvn-repo/ROOT</url>
+		</repository>
+	</distributionManagement>
+
+
+
+
+	<repositories>
+		<repository>
+			<id>mvn-repo1</id>
+			<url>https://mvnrepository.com/</url>
+		</repository>
+		<repository>
+			<id>mvn-repo2</id>
+			<url>https://repo1.maven.org/maven2/</url>
+		</repository>
+		<repository>
+			<id>sourceforge</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+
+	</repositories>
+
+
+
+
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<runSuite>**/MainTestSuite.class</runSuite>
+		<springframework.version>4.2.0.RELEASE</springframework.version>
+		<jackson.version>2.5.3</jackson.version>
+		<ehcache3.version>3.7.0</ehcache3.version>
+		<slf4j.version>1.7.25</slf4j.version>
+		<log4j.version>1.2.17</log4j.version>
+
+	</properties>
+
+	<dependencies>
+	    <dependency>
+	    <groupId>io.github.mngsk</groupId>
+	    <artifactId>device-detector</artifactId>
+	    <version>1.0.7</version>
+       </dependency>
+        <dependency>
+            <groupId>org.elasticsearch</groupId>
+            <artifactId>elasticsearch</artifactId>
+            <version>7.6.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+            <version>4.0.0.RELEASE</version>
+        </dependency>
+         <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-elasticsearch</artifactId>
+            <version>4.0.0.RELEASE</version>
+        </dependency>
+        <dependency>
+           <groupId>org.elasticsearch.client</groupId>
+           <artifactId>elasticsearch-rest-high-level-client</artifactId>
+           <version>7.6.1</version>
+        </dependency>
+        <dependency>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>22.0</version>
+
+		</dependency>
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.8.6</version>
+		</dependency>
+        <!-- https://mvnrepository.com/artifact/org.lwjgl/lwjgl -->
+        <dependency>
+           <groupId>org.lwjgl</groupId>
+           <artifactId>lwjgl</artifactId>
+           <version>3.2.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.json/json-simple -->
+       <dependency>
+         <groupId>org.json</groupId>
+         <artifactId>json-simple</artifactId>
+         <version>20200211</version>
+       </dependency>
+        
+        
+	</dependencies>
+
+
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-war-plugin</artifactId>
+					<version>2.4</version>
+					<configuration>
+						<warSourceDirectory>src/main/webapp</warSourceDirectory>
+						<warName>multiplayergame</warName>
+						<failOnMissingWebXml>false</failOnMissingWebXml>
+					</configuration>
+				</plugin>
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<configuration>
+						<source>1.8</source>
+						<target>1.8</target>
+					</configuration>
+				</plugin>
+
+
+
+
+
+			</plugins>
+		</pluginManagement>
+
+		<finalName>multiplayer</finalName>
+		
+	</build>
+
+</project>
