@@ -1,9 +1,15 @@
 # Java port of Applications of games with a purpose
 
+
 1)Elasticsearch based data store integration due..
+
 2)ML models integration due..
+
 3)Fetches User Persona Data from Data Management Platform for optimising player pairing Algorithm and content recommendation - images,videos,news articles and other media within the game.
-User persona data points - 
+
+
+Feature Set - 
+
 1)Feeds/Media selection in game based on User Persona
 
 2)Color customisation of creatives
